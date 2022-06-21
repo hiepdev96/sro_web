@@ -193,6 +193,11 @@ namespace Common.Generics
 
         }
 
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
         //public void Dispose()
         //{
         //    if (_rpcontext != null)
