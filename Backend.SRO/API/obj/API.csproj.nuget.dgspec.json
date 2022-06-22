@@ -27,7 +27,23 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Project\\sro_web\\Backend.SRO\\Common\\Common.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Common\\Common.csproj"
+              },
+              "D:\\Project\\sro_web\\Backend.SRO\\Log_Repository\\Log_Repository.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Log_Repository\\Log_Repository.csproj"
+              },
+              "D:\\Project\\sro_web\\Backend.SRO\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Repository\\Repository.csproj"
+              },
+              "D:\\Project\\sro_web\\Backend.SRO\\Services\\Services.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Services\\Services.csproj"
+              },
+              "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +75,363 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\sro_web\\Backend.SRO\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\sro_web\\Backend.SRO\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\tdhiep\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\sro_web\\Backend.SRO\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tdhiep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Project\\sro_web\\Backend.SRO\\Log_Repository\\Log_Repository.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Log_Repository\\Log_Repository.csproj"
+              },
+              "D:\\Project\\sro_web\\Backend.SRO\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Repository\\Repository.csproj"
+              },
+              "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\sro_web\\Backend.SRO\\Log_Repository\\Log_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\sro_web\\Backend.SRO\\Log_Repository\\Log_Repository.csproj",
+        "projectName": "Log_Repository",
+        "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Log_Repository\\Log_Repository.csproj",
+        "packagesPath": "C:\\Users\\tdhiep\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\sro_web\\Backend.SRO\\Log_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tdhiep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\sro_web\\Backend.SRO\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\sro_web\\Backend.SRO\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\tdhiep\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\sro_web\\Backend.SRO\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tdhiep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\sro_web\\Backend.SRO\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\sro_web\\Backend.SRO\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\tdhiep\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\sro_web\\Backend.SRO\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tdhiep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Project\\sro_web\\Backend.SRO\\Common\\Common.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Common\\Common.csproj"
+              },
+              "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj": {
+                "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj",
+        "projectName": "Shard_Repository",
+        "projectPath": "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\Shard_Repository.csproj",
+        "packagesPath": "C:\\Users\\tdhiep\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\sro_web\\Backend.SRO\\Shard_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tdhiep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

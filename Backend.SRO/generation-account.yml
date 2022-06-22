@@ -1,0 +1,64 @@
+project:
+  namespace: '{Database.Name}'
+  directory: .\
+  nullable: false
+database:
+  provider: SqlServer
+  connectionString: Server=139.180.221.179; Database=VSRO_ACCOUNT; uid=sa; pwd=123456a@;MultipleActiveResultSets=true
+  tableNaming: Singular
+data:
+  context:
+    name: '{Database.Name}Context'
+    baseClass: DbContext
+    propertyNaming: Plural
+    namespace: '{Project.Namespace}.Repository'
+    directory: '{Project.Directory}\Repository'
+    document: false
+  entity:
+    entityNaming: Singular
+    relationshipNaming: Plural
+    prefixWithSchemaName: false
+    namespace: '{Project.Namespace}.Repository.Entities'
+    directory: '{Project.Directory}\Repository\Entities'
+    document: false
+  mapping:
+    namespace: '{Project.Namespace}.Repository.Mapping'
+    directory: '{Project.Directory}\Repository\Mapping'
+    document: false
+  query:
+    generate: false
+    indexPrefix: By
+    uniquePrefix: GetBy
+    namespace: '{Project.Namespace}.Repository.Queries'
+    directory: '{Project.Directory}\Repository\Queries'
+    document: false
+model:
+  shared:
+    namespace: '{Project.Namespace}.Repository.Models'
+    directory: '{Project.Directory}\Repository\Models'
+  read:
+    generate: false
+    name: '{Entity.Name}ReadModel'
+    document: false
+  create:
+    generate: false
+    name: '{Entity.Name}CreateModel'
+    document: false
+  update:
+    generate: false
+    name: '{Entity.Name}UpdateModel'
+    document: false
+  mapper:
+    generate: false
+    name: '{Entity.Name}Profile'
+    baseClass: AutoMapper.Profile
+    namespace: '{Project.Namespace}.Repository.Mapping'
+    directory: '{Project.Directory}\Repository\Mapping'
+    document: false
+  validator:
+    generate: false
+    name: '{Model.Name}Validator'
+    baseClass: AbstractValidator<{Model.Name}>
+    namespace: '{Project.Namespace}.Repository.Validation'
+    directory: '{Project.Directory}\Repository\Validation'
+    document: false

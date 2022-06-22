@@ -1,0 +1,12 @@
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\Log_Repository.csproj.AssemblyReference.cache
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\Log_Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\Log_Repository.AssemblyInfoInputs.cache
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\Log_Repository.AssemblyInfo.cs
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\Log_Repository.csproj.CoreCompileInputs.cache
+D:\Project\sro_web\Backend.SRO\Log_Repository\bin\Debug\net6.0\Log_Repository.deps.json
+D:\Project\sro_web\Backend.SRO\Log_Repository\bin\Debug\net6.0\Log_Repository.dll
+D:\Project\sro_web\Backend.SRO\Log_Repository\bin\Debug\net6.0\Log_Repository.pdb
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\Log_Repository.dll
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\refint\Log_Repository.dll
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\Log_Repository.pdb
+D:\Project\sro_web\Backend.SRO\Log_Repository\obj\Debug\net6.0\ref\Log_Repository.dll

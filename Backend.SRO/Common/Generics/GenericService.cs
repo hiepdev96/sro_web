@@ -16,18 +16,6 @@ namespace Common.Generics
 
         public C DbContext { get; set; }
 
-        //SSOReportEntities _rpcontext;
-        //public SSOReportEntities DbReportContext
-        //{
-        //    get
-        //    {
-        //        if (_rpcontext == null)
-        //        {
-        //            _rpcontext = new SSOReportEntities();
-        //        }
-        //        return _rpcontext;
-        //    }
-        //}
 
         public GenericService(C context)
         {

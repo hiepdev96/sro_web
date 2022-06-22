@@ -1,0 +1,12 @@
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+D:\Project\sro_web\Backend.SRO\Repository\bin\Debug\net6.0\Repository.deps.json
+D:\Project\sro_web\Backend.SRO\Repository\bin\Debug\net6.0\Repository.dll
+D:\Project\sro_web\Backend.SRO\Repository\bin\Debug\net6.0\Repository.pdb
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\Repository.dll
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\refint\Repository.dll
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\Repository.pdb
+D:\Project\sro_web\Backend.SRO\Repository\obj\Debug\net6.0\ref\Repository.dll

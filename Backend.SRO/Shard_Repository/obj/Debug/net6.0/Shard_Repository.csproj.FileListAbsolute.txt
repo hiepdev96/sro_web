@@ -1,0 +1,12 @@
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\Shard_Repository.csproj.AssemblyReference.cache
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\Shard_Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\Shard_Repository.AssemblyInfoInputs.cache
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\Shard_Repository.AssemblyInfo.cs
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\Shard_Repository.csproj.CoreCompileInputs.cache
+D:\Project\sro_web\Backend.SRO\Shard_Repository\bin\Debug\net6.0\Shard_Repository.deps.json
+D:\Project\sro_web\Backend.SRO\Shard_Repository\bin\Debug\net6.0\Shard_Repository.dll
+D:\Project\sro_web\Backend.SRO\Shard_Repository\bin\Debug\net6.0\Shard_Repository.pdb
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\Shard_Repository.dll
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\refint\Shard_Repository.dll
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\Shard_Repository.pdb
+D:\Project\sro_web\Backend.SRO\Shard_Repository\obj\Debug\net6.0\ref\Shard_Repository.dll
